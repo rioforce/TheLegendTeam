@@ -1,5 +1,3 @@
-/* -- CSS code compiled by le717 (http://triangle717.wordpress.com) -- */
-
 /* -- The universal selector is usually not advised for usage (use body instead), mainly because it's slow, but with such little content, it will be fine. -- */
 
 /*-- em, rather than px, is used to ensure everything is in the same place on different screen resolution monitors. Converted with http://pxtoem.com/ using 16px (the standard browser text size) as the base. -- */
@@ -16,16 +14,16 @@
 }
 
 /* -- Background color and image -- */
-body { 
-	background-color: #ffffff; 
-	background-image: url("http://thelegendteam.files.wordpress.com/2012/05/new-clouds3.jpg"); 
-	background-repeat: repeat-x; 
-	background-position: top center; 
-	background-attachment: scroll; 
-	padding: 0em;
-	margin: 0em;
+body {
+	background-color: #ffffff;
+	background-image: url("http://thelegendteam.files.wordpress.com/2012/05/new-clouds3.jpg");
+	background-repeat: repeat-x;
+	background-position: top center;
+	background-attachment: scroll;
+	padding: 0;
+	margin: 0;
 }
-	 
+
 /*-- Different font every time The Legend Team is displayed. Yes, it is not the official font, but it has been used many times as well. --*/
 #TLT {
 	font-size: 1.25em;
@@ -54,25 +52,25 @@ a:hover {
 	text-decoration: underline;
 }
 
-/*-- Unity3D WebPlayer stuff --*/		
+/*-- Unity3D WebPlayer stuff --*/
 p.header {
 	font-size: medium;
 	font-weight: bold;
 }
-		
+
 p.header span {
 	font-weight: bold;
 }
-		
+
 p.footer {
 	font-size: x-small;
 }
-		
+
 div.content {
 	margin: auto;
-	width: 60.000em;
+	width: 60em;
 }
-		
+
 div.missing {
 	margin: auto;
 	position: relative;
@@ -87,38 +85,49 @@ div.missing a {
 }
 
 div.missing img {
-	border-width: 0.00em;
+	border-width: 0;
 }
 
 div#unityPlayer {
 	cursor: default;
-	height: 37.500em;
-	width: 60.000em;
+	height: 37.5em;
+	width: 60em;
 }
 
-/* -- NavBar code -- */		
+/* -- NavBar code -- */
 #nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	color: #ffffff;
+	color: #fff;
 	height: 2.188em;
 	text-align: center;
 	padding-top: 0.938em;
-	-webkit-box-shadow: 0.000em 0.000em 0.500em 0.000em #000000;
-	-moz-box-shadow: 0.000em 0.000em 0.500em 0.000em #000000;
-	box-shadow: 0.000em 0.000em 0.500em 0.000em #000000;
+	box-shadow: 0 0 0.5em #000;
 	background-color: rgba(1, 1, 1, 0.8);
 	color: rgba(1, 1, 1, 0.8);
 }
 
-/* -- NavBar links -- */	
+/* -- NavBar links -- */
 #nav a {
 	font-size: 0.875em;
-	padding-left: 0.938em; 
-	padding-right: 0.938em; 
+	padding-left: 0.938em;
+	padding-right: 0.938em;
 }
 
 #nav a:hover {
 	color:grey;
 }
+
+#nav span.active {
+	font-size: 0.875em;
+	padding-left: 0.938em;
+	padding-right: 0.938em;
+	color:grey
+}
+
+/* CSS only for List of Game Builds */
+#columns { width: 43.750em; }
+#columns .column { position: relative; width: 45%; }
+#columns .left { float: left; margin-left: 18.313em;}
+#columns .right { float: right; margin-right: -13.938em; }
