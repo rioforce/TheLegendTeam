@@ -25,7 +25,7 @@ body {
 }
 
 /*-- Different font every time The Legend Team is displayed. Yes, it is not the official font, but it has been used many times as well. --*/
-#TLT {
+.TLT {
 	font-size: 1.25em;
 	font-weight: normal;
 	font-family: 'Arial Rounded';
