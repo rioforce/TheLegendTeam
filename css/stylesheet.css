@@ -1,0 +1,124 @@
+/* -- CSS code compiled by le717 (http://triangle717.wordpress.com) -- */
+
+/* -- The universal selector is usually not advised for usage (use body instead), mainly because it's slow, but with such little content, it will be fine. -- */
+
+/*-- em, rather than px, is used to ensure everything is in the same place on different screen resolution monitors. Converted with http://pxtoem.com/ using 16px (the standard browser text size) as the base. -- */
+/*-- Century Gothic: the official TLT font --*/
+* {
+	font-family: 'Century Gothic';
+	font-size: 1em;
+	color: white;
+}
+
+/*-- Header Image --*/
+ #header {
+	text-align: center;
+}
+
+/* -- Background color and image -- */
+body { 
+	background-color: #ffffff; 
+	background-image: url("http://thelegendteam.files.wordpress.com/2012/05/new-clouds3.jpg"); 
+	background-repeat: repeat-x; 
+	background-position: top center; 
+	background-attachment: scroll; 
+	padding: 0em;
+	margin: 0em;
+}
+	 
+/*-- Different font every time The Legend Team is displayed. Yes, it is not the official font, but it has been used many times as well. --*/
+#TLT {
+	font-size: 1.25em;
+	font-weight: normal;
+	font-family: 'Arial Rounded';
+}
+
+/*-- Keep everything center aligned... --*/
+p {
+	text-align: center;
+}
+
+/*-- Because the white text blends with our clouds background image. --*/
+#credit {
+	color: black;
+}
+
+/* -- Link Decoration -- */
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+/*-- Unity3D WebPlayer stuff --*/		
+p.header {
+	font-size: medium;
+	font-weight: bold;
+}
+		
+p.header span {
+	font-weight: bold;
+}
+		
+p.footer {
+	font-size: x-small;
+}
+		
+div.content {
+	margin: auto;
+	width: 60.000em;
+}
+		
+div.missing {
+	margin: auto;
+	position: relative;
+	top: 50%;
+	width: 12.063em;
+}
+
+div.missing a {
+	height: 3.938em;
+	position: relative;
+	top: -1.938em;
+}
+
+div.missing img {
+	border-width: 0.00em;
+}
+
+div#unityPlayer {
+	cursor: default;
+	height: 37.500em;
+	width: 60.000em;
+}
+
+/* -- NavBar code -- */		
+#nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: #ffffff;
+	height: 2.188em;
+	text-align: center;
+	padding-top: 0.938em;
+	-webkit-box-shadow: 0.000em 0.000em 0.500em 0.000em #000000;
+	-moz-box-shadow: 0.000em 0.000em 0.500em 0.000em #000000;
+	box-shadow: 0.000em 0.000em 0.500em 0.000em #000000;
+	background-color: rgba(1, 1, 1, 0.8);
+	color: rgba(1, 1, 1, 0.8);
+}
+
+/* -- NavBar links -- */	
+#nav a {
+	font-size: 0.875em;
+	padding-left: 0.938em; 
+	padding-right: 0.938em; 
+}
+
+#nav a:hover {
+	color:grey;
+}

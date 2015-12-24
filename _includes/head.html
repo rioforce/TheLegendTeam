@@ -1,0 +1,23 @@
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" id="favicon" href="favicon.png">
+    <title>{{ page.title }} | The Legend Team Game Builds</title>
+    <!--[if IE]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <!-- This is the JS code that checks if the Unity3D Webplayer plugin is installed, and if not, will display a image to download the correct OS version. -->
+        <script src="js/UnityObject.js"></script>
+        <script>
+            function GetUnity() {
+                if (typeof unityObject != "undefined") {
+                    return unityObject.getObjectById("unityPlayer");
+                }
+                return null;
+            }
+            if (typeof unityObject != "undefined") {
+                // TODO Fix URL
+            }
+    </script>
+</head>
