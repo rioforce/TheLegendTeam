@@ -40,6 +40,8 @@ p {
 #credit {
 	color: black;
     clear: both;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 
 /* -- Link Decoration -- */
