@@ -16,7 +16,7 @@
 /* -- Background color and image -- */
 body {
 	background-color: #ffffff;
-	background-image: url("http://thelegendteam.files.wordpress.com/2012/05/new-clouds3.jpg");
+	background-image: url("../img/new-clouds3.jpg");
 	background-repeat: repeat-x;
 	background-position: top center;
 	background-attachment: scroll;
