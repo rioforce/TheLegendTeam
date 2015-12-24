@@ -39,6 +39,7 @@ p {
 /*-- Because the white text blends with our clouds background image. --*/
 #credit {
 	color: black;
+    clear: both;
 }
 
 /* -- Link Decoration -- */
@@ -106,6 +107,7 @@ div#unityPlayer {
 	box-shadow: 0 0 0.5em #000;
 	background-color: rgba(1, 1, 1, 0.8);
 	color: rgba(1, 1, 1, 0.8);
+    z-index: 1;
 }
 
 /* -- NavBar links -- */
