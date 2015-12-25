@@ -3,18 +3,7 @@
     {% include head.html %}
 <body>
     {% include header.html %}
-    <p class="player"></p>
-    <p class="header">Build {{ page.builds.current }}</p>
-    <div class="content">
-        <div id="unityPlayer">
-            <div class="missing">
-                <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
-                    <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63">
-                </a>
-            </div>
-        </div>
-    </div>
-	<p class="footer">Created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a></p>
+    {{ content }}
     {% include footer.html %}
 </body>
 </html>
